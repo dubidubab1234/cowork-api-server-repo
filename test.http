@@ -1,0 +1,28 @@
+GET http://localhost:3000/api/members
+
+###
+
+POST http://localhost:3000/api/members 
+Content-Type: application/json
+
+{
+    "name": "William",
+    "team": "engineering",
+    "position": "Android Developer",
+    "emailAddress": "zake@gamil.com",
+    "phoneNumber": "010-1221-3443",
+    "admissionDate": "2022/06/17",
+    "birthday":"1995/04/03",
+    "profileImage": "profile11.png"
+}
+
+###
+PUT http://localhost:3000/api/members/100
+Content-Type: application/json
+
+{
+    "position": "Android Developer"
+}
+
+###
+DELETE http://localhost:3000/api/members/2

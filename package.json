@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3",
+    "sequelize-cli": "^6.4.1"
+  },
+  "name": "practice_node_hey",
+  "version": "1.0.0",
+  "description": "basic programming on Node.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "migrate": "sequelize db:migrate",
+    "seed": "sequelize db:seed:all"
+  },
+  "keywords": [
+    "node.js",
+    "learn",
+    "beginner"
+  ],
+  "author": "my name hello",
+  "license": "ISC"
+}
