@@ -1,8 +1,8 @@
-GET http://localhost:3000/api/members
+GET https://cowork-api-server-prac.herokuapp.com/api/members
 
 ###
 
-POST http://localhost:3000/api/members 
+POST https://cowork-api-server-prac.herokuapp.com/api/members 
 Content-Type: application/json
 
 {
@@ -17,7 +17,7 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:3000/api/members/100
+PUT https://cowork-api-server-prac.herokuapp.com/api/members/1
 Content-Type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/api/members/2
+DELETE https://cowork-api-server-prac.herokuapp.com/api/members/2
