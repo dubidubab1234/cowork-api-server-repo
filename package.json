@@ -10,8 +10,8 @@
   "description": "basic programming on Node.js",
   "main": "main.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
+    "start": "node main.js",
+    "dev": "nodemon main.js",
     "migrate": "sequelize db:migrate",
     "seed": "sequelize db:seed:all"
   },
